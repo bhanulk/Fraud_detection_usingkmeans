@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection Visualization</title>
+</head>
+<body>
+    <h1>Fraud Detection Visualizations</h1>
+    
+    <h2>1. Elbow Method for K-Means Clustering</h2>
+    <img src="data:image/png;base64, {{ elbow_plot }}">
+
+    <h2>2. K-Means Clustering of Transactions</h2>
+    <img src="data:image/png;base64, {{ cluster_plot }}">
+
+    <h2>3. Outliers Detected by Local Outlier Factor (LOF)</h2>
+    <img src="data:image/png;base64, {{ outlier_plot }}">
+
+</body>
+</html>
